@@ -3,8 +3,13 @@ class enter values
 {
 public static void main(String args[])
 {
-String words;
+String words,name;
+int password;
 Scanner scan = new Scanner(System.in);
+System.out.println("Name");
+name = scan.nextLine();
+System.out.print("Password");
+password = scan.nextInt();
 System.out.println("Type here...");
 words = scan.nextLine();
 }
