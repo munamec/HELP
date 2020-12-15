@@ -1,0 +1,11 @@
+import java.util.*;
+class enter values
+{
+public static void main(String args[])
+{
+String words;
+Scanner scan = new Scanner(System.in);
+System.out.println("Type here...");
+words = scan.nextLine();
+}
+}
